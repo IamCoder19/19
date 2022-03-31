@@ -1,0 +1,130 @@
+*{
+	margin: 0; padding: 0; box-sizing: ;border-box: ;
+	
+}
+
+header{
+	width: 100; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../IMAGES1/Taj.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%; height: 15vh;
+	background: rgba(0, 0, 0, 0.2);
+	color: white; display: flex; justify-content: space-between;
+	align-items: center; text-transform: ;
+	font-family: 'Josefin slab', serif
+}
+
+nav .logo{
+	width: 25%;  text-align: center;
+	font-family: 'Josefin slab', serif
+}
+
+nav .menu{
+	width: 35%; display: flex; justify-content: space-around;
+	font-family: 'Josefin slab', serif
+}
+
+nav .menu a {
+	width: 25%;
+	text-decoration-line: none; color: #00b894;
+	font-family: 'Josefin slab', serif
+}
+
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center; color:#fff;
+	font-family: 'Josefin slab', serif
+}
+section h3{
+	font-size: 35px; font-weight: 200; letter-spacing:3px ;
+	text-shadow: 3px 5px 2px black;
+	font-family: 'Josefin slab', serif
+}
+
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 3px 7px 2px black;
+	text-transform: uppercase;
+	font-family: 'Josefin slab', serif
+}
+
+section h2{
+	font-size: 30px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 3px 6px 2px black;
+	font-family: 'Josefin slab', serif
+}
+
+section a{
+	padding: 18px; 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 14.5px;
+	font-weight: 500;
+	text-decoration-line: none;
+	letter-spacing: 1px;
+	transition: all.5s ease;
+	font-family: 'Josefin slab', serif
+}
+
+section .btnone{
+	/*background: #00b894;*/
+	background: #fff;
+	color: #00b894;
+	font-family: 'Josefin slab', serif
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: #fff;
+	font-family: 'Josefin slab', serif
+}
+
+section .btntwo{
+	background: #00b894;
+	color: #fff;
+	font-family: 'Josefin slab', serif
+}
+.btntwo:hover{
+	background: #fff;
+	color: #00b894;
+	font-family: 'Josefin slab', serif
+}
+
+.change_content:after{
+	content: "";
+	animation-name: changetext;
+	animation-duration: 20s;
+	animation-timing-function: infinite;
+	animation-play-state: linear;
+	color: #00b894;
+	font-family: 'Josefin slab', serif
+}
+
+ @keyframes changetext{
+ 	0%{content: "DARJEELING";}
+ 	15%{content: "SIKKIM";}
+ 	20%{content: "NAINITAL";}
+ 	30%{content: "PURI";}
+ 	40%{content: "RAJASTHAN";}
+ 	50%{content: "PUNJAB";}
+ 	60%{content: "AGRA";}
+ 	70%{content: "KOLKATA";}
+ 	80%{content: "ASSAM";}
+ 	90%{content: "DEHRADUN";}
+  100%{content: " THE INDIA";}
+
+ }
+
